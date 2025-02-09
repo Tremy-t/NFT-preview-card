@@ -5,8 +5,8 @@
 
 ### Links
 
-- Solution : [Frontend Mentor solution](https://www.frontendmentor.io/solutions/3-column-preview-card-L6yWMz5oKH)
-- Live Site : [NFT Preview card](https://tremy-t.github.io/3-column-preview-card/)
+- Solution : [Frontend Mentor solution](https://www.frontendmentor.io/solutions/nft-preview-card-htmlcss-L89ebOUsSA)
+- Live Site : [NFT Preview card](https://tremy-t.github.io/NFT-preview-card/)
 
 - ## Author
 

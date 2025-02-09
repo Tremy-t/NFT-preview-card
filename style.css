@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
     max-width: 100%;
-    width: 18rem;
+    width: 17rem;
     padding: 1.5rem;
     border-radius: 0.8rem;
     background-color: hsl(216, 50%, 16%);
@@ -33,7 +33,7 @@
     line-height: 1.5rem;
   }
   .top{
-    width: 18rem;
+    width: 17rem;
     border-radius: 0.5rem;
   }
   .image{

@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    font-family: "Outfit",sans-serif;
+    margin: 0;
+  }
+  .main{
+    box-shadow: 10px 20px 90px 10px hsl(213, 36%, 10%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    width: 18rem;
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+    background-color: hsl(216, 50%, 16%);
+  }
+  h1{
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 1.3rem;
+  }
+  h1:hover{
+    color: hsl(178, 100%, 50%);
+  }
+  .sub-text{
+    color: hsl(215, 51%, 70%);
+    line-height: 1.5rem;
+  }
+  .top{
+    width: 18rem;
+    border-radius: 0.5rem;
+  }
+  .image{
+    position: relative;
+  }
+  .view{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s ease;
+    background-color: hsl(178, 100%, 50%, 50%);
+    border-radius: 0.5rem;
+  }
+  .image:hover .view{
+    opacity: 1;
+  }
+  .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .eth,.days{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .eth{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+  }
+  .days{
+    color:hsl(215, 51%, 70%) ;
+  }
+  .attrib{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .create{
+    color:hsl(215, 51%, 70%) ;
+  }
+  .name{
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 400;
+  }
+  .name:hover{
+    color:hsl(178, 100%, 50%) ;
+  }
+  .avatar{
+    width: 2rem;
+    height: 2rem;
+  }
+  .divider{
+    color: hsl(215, 32%, 27%);
+  }
